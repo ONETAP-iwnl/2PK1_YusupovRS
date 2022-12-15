@@ -1,0 +1,15 @@
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\bin\Debug\net6.0\pz_18.exe
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\bin\Debug\net6.0\pz_18.deps.json
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\bin\Debug\net6.0\pz_18.runtimeconfig.json
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\bin\Debug\net6.0\pz_18.dll
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\bin\Debug\net6.0\pz_18.pdb
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.csproj.AssemblyReference.cache
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.AssemblyInfoInputs.cache
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.AssemblyInfo.cs
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.csproj.CoreCompileInputs.cache
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.dll
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\refint\pz_18.dll
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.pdb
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\pz_18.genruntimeconfig.cache
+C:\Users\ромка\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_18\obj\Debug\net6.0\ref\pz_18.dll
