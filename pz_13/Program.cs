@@ -6,17 +6,27 @@ using System.Threading.Tasks;
 
 namespace pz_13
 {
-    internal class Program
+    class Program
     {
-        static void Mathsqrt()
-        {
-            int x = Convert.ToInt32(Console.ReadLine());
-            int[] array = {1,2,3,4,5,6,7,8,9,10};
-            if (array)
-        }
         static void Main(string[] args)
         {
-            
+            int[] numbers = { 1, 8, 27, 64, 125, 216 };
+            Console.WriteLine("Количество элементов из которых можно извлечь куб: " + CubeRootCount(numbers));
+            Console.ReadKey();
+        }
+
+        static int CubeRootCount(int[] numbers)
+        {
+            int count = 0;
+            foreach (int number in numbers)
+            {
+                int cubeRoot = (int)Math.Pow(number, 1.0 / 3.0);
+                if (cubeRoot * cubeRoot * cubeRoot == number)
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
 }
