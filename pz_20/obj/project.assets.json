@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ромка\\.nuget\\packages\\": {}
+    "C:\\Users\\romka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ромка\\source\\repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\pz_20.csproj",
+      "projectUniqueName": "C:\\Users\\romka\\Source\\Repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\pz_20.csproj",
       "projectName": "pz_20",
-      "projectPath": "C:\\Users\\ромка\\source\\repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\pz_20.csproj",
-      "packagesPath": "C:\\Users\\ромка\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ромка\\source\\repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\obj\\",
+      "projectPath": "C:\\Users\\romka\\Source\\Repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\pz_20.csproj",
+      "packagesPath": "C:\\Users\\romka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\romka\\Source\\Repos\\ONETAP-iwnl\\2PK1_YusupovRS\\pz_20\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ромка\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\romka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
