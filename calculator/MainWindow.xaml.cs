@@ -43,7 +43,7 @@ namespace calculator
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-                string stoka = (string)((Button)e.OriginalSource).Content;
+            string stoka = (string)((Button)e.OriginalSource).Content;
             if (stoka == "AC")
             {
                 text.Text = "";
@@ -59,6 +59,8 @@ namespace calculator
         }
 
 
+        //Я пытался подключить БД, с помощью которой она будет показывать последние 10 прожатых кнопок, но чет не получилось :(
+        /*
          public void UpdateHistoryList(RoutedEventArgs e)
         {
             string connectionString = "Data Source=calculator_history.db";
@@ -84,6 +86,6 @@ namespace calculator
                     }
                 }
             }
-        }
+        }*/
     }
 }
