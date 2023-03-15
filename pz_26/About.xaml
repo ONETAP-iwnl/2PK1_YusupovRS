@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Dev" Height="450" Width="800">
     <StackPanel Margin="20,10,20,20">
-        <TextBlock Text="Очень даже легко, хочу сделать сохранение но лень" FontWeight="Bold" FontSize="16"/>
+        <TextBlock Text="^_^" FontWeight="Bold" FontSize="16"/>
         <TextBlock Text="Версия: 0.1 beta" FontSize="16" FontWeight="Bold"/>
         <TextBlock FontSize="20" FontWeight="Bold"><Run Text="Автор: ромка 2"/><Run Language="ru-ru" Text="пк1"/></TextBlock>
         <Image Source="C:\Users\romka\Source\Repos\ONETAP-iwnl\2PK1_YusupovRS\pz_26\icons\Eb7hT3VfY2U.jpg" Height="354" Width="316" RenderTransformOrigin="0.497,0.509" HorizontalAlignment="Left"/>

@@ -25,4 +25,8 @@
     <Resource Include="icons\underline_format_editor_tool_icon_145920.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
+
 </Project>

@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
 
 namespace pz_26
 {
@@ -37,5 +38,18 @@ namespace pz_26
             // Отображение окна в модальном режиме
             aboutWindow.ShowDialog();
         }
+
+        private void NewFileMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var newFileDialog = new NewFileDialog();
+            if (newFileDialog.ShowDialog() == true)
+            {
+                string fileName = newFileDialog.FileName;
+                FileHandler.CreateFile(fileName);
+                listbox.Items.Add(Path.GetFileName(fileName));
+                rtb.Document.Blocks.Clear();
+            }
+        }
+        
     }
 }
