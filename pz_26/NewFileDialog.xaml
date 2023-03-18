@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pz_26"
         mc:Ignorable="d"
-        Title="NewFileDialog" Height="200" Width="300">
+        Title="Открытие нового файла" Height="200" Width="300">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
@@ -13,10 +13,10 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TextBlock>Введите имя файла:</TextBlock>
-        <TextBox Name="FileName" Grid.Row="1" MinWidth="250">file1</TextBox>
+        <TextBox Name="FileName" Grid.Row="1" MinWidth="250" ></TextBox>
         <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Margin="0,15,0,0">
-            <Button IsDefault="True" Click="Accept_Click" MinWidth="60"
-Margin="0,0,10,0">OK</Button>
+            <Button IsDefault="True" MinWidth="60"
+               Margin="0,0,10,0" Click="NewFile_Click">OK</Button>
             <Button IsCancel="True" MinWidth="60">Отмена</Button>
         </WrapPanel>
     </Grid>

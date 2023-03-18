@@ -23,11 +23,11 @@ namespace pz_26
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static readonly string dataFolderPath = @"C:\Users\romka\Source\Repos\ONETAP-iwnl\2PK1_YusupovRS\pz_26\data\";
 
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void AboutMenuItem_Click(object sender, RoutedEventArgs e)
@@ -39,17 +39,37 @@ namespace pz_26
             aboutWindow.ShowDialog();
         }
 
-        private void NewFileMenuItem_Click(object sender, RoutedEventArgs e)
+
+        private void OpenFile_Click(object sender, RoutedEventArgs e)
         {
-            var newFileDialog = new NewFileDialog();
-            if (newFileDialog.ShowDialog() == true)
+            
+            OpenFileDialog openFileDialog = new OpenFileDialog(); // Открыть диалог выбора файла
+            if (openFileDialog.ShowDialog() == true)
             {
-                string fileName = newFileDialog.FileName;
-                FileHandler.CreateFile(fileName);
-                listbox.Items.Add(Path.GetFileName(fileName));
-                rtb.Document.Blocks.Clear();
+                
+                string fileContent = File.ReadAllText(openFileDialog.FileName); // Прочитать содержимое файла
+
+                
+                rtb.Document.Blocks.Clear(); // Очистить RichTextBox перед вставкой нового текста
+                rtb.Document.Blocks.Add(new Paragraph(new Run(fileContent))); // Отобразить содержимое файла в RichTextBox
             }
         }
-        
+
+        private void NewFile_Click(object sender, RoutedEventArgs e)
+        {
+            NewFileDialog newFiles = new NewFileDialog();
+            newFiles.ShowDialog();
+        }
+
+        private void SaveFile_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog saveFileDialog = new Microsoft.Win32.SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                string filename = saveFileDialog.FileName;
+                File.WriteAllText(filename, new TextRange(rtb.Document.ContentStart, rtb.Document.ContentEnd).Text);
+            }
+        }
     }
 }

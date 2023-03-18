@@ -10,9 +10,9 @@
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
             <Menu>
                 <MenuItem Header="_Файл" Width="40" Height="25">
-                    <MenuItem Header="_Новый файл" Click="NewFileMenuItem_Click"/>
-                    <MenuItem Header="_Открыть" />
-                    <MenuItem Header="_Сохранить" />
+                    <MenuItem Header="_Новый файл" Click="NewFile_Click"/>
+                    <MenuItem Header="_Открыть" Click="OpenFile_Click"/>
+                    <MenuItem Header="_Сохранить" Click="SaveFile_Click" />
                     <MenuItem Header="_Удалить"/>
 
                 </MenuItem>
@@ -44,6 +44,6 @@
             </StatusBar.RenderTransform>
         </StatusBar>
         <ListBox x:Name="listbox" DockPanel.Dock="Left" MinWidth="200" Background="WhiteSmoke"/>
-        <RichTextBox x:Name="rtb" AcceptsReturn="True" SpellCheck.IsEnabled="True" Background="DarkSlateGray" AcceptsTab="True" RenderTransformOrigin="0.505,0.511"/>
+        <RichTextBox x:Name="rtb" AcceptsReturn="True" SpellCheck.IsEnabled="True" Background="DarkSlateGray" AcceptsTab="True" RenderTransformOrigin="0.505,0.511" />
     </DockPanel>
 </Window>

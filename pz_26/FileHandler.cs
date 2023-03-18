@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 using System.Windows;
-using System.Windows.Controls;
+using System.IO;
 
 namespace pz_26
 {
-    public static class FileManager
+    class FileHandler
     {
         private static readonly string dataFolderPath = @"C:\Users\romka\Source\Repos\ONETAP-iwnl\2PK1_YusupovRS\pz_26\data\";
 
@@ -70,7 +69,5 @@ namespace pz_26
                 MessageBox.Show(ex.Message);
             }
         }
-
     }
-
 }

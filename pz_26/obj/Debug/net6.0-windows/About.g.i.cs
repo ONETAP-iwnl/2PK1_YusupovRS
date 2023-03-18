@@ -53,7 +53,7 @@ namespace pz_26 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pz_26;V1.0.0.0;component/about.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pz_26;component/about.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\About.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
