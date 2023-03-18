@@ -26,7 +26,6 @@ namespace pz_25
         public MainWindow()
         {
             InitializeComponent();
-            //через цикл обращаемся к каждой кнопке
             foreach (UIElement element in Calculator.Children)
             {
                 if (element is Button)
