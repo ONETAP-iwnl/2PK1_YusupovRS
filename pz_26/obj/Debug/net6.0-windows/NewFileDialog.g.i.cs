@@ -61,7 +61,7 @@ namespace pz_26 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pz_26;V1.0.0.0;component/newfiledialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pz_26;component/newfiledialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\NewFileDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
