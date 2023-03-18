@@ -24,23 +24,23 @@
             <ColumnDefinition Width="65*"></ColumnDefinition>
             <ColumnDefinition Width="20*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Content="7" Grid.Row="3" Grid.Column="1" Margin="5,6,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="White"/>
-        <Button Content="8" Grid.Row="3" Grid.Column="2" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White">
+        <Button Content="7" Grid.Row="3" Grid.Column="1" Margin="5,6,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="ForestGreen"/>
+        <Button Content="8" Grid.Row="3" Grid.Column="2" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen">
         </Button>
-        <Button  Content="9" Grid.Row="3" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White"/>
-        <Button Content="4" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White">
+        <Button  Content="9" Grid.Row="3" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen"/>
+        <Button Content="4" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen">
         </Button>
-        <Button  Content="5" Grid.Row="2" Grid.Column="2" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="White">
+        <Button  Content="5" Grid.Row="2" Grid.Column="2" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="ForestGreen">
         </Button>
-        <Button Content="6" Grid.Row="2" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="White">
+        <Button Content="6" Grid.Row="2" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Background="ForestGreen">
         </Button>
-        <Button Content="1" Grid.Row="1" Grid.Column="1" Margin="5,6,5,4" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White">
+        <Button Content="1" Grid.Row="1" Grid.Column="1" Margin="5,6,5,4" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen">
         </Button>
-        <Button Content="2" Grid.Row="1" Grid.Column="2" Margin="5,6,5,4" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White">
+        <Button Content="2" Grid.Row="1" Grid.Column="2" Margin="5,6,5,4" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen">
         </Button>
-        <Button  Content="3" Grid.Row="1" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White"></Button>
-        <Button Content="0" Grid.Row="4" Grid.Column="2" Margin="3,5,3,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White"/>
-        <Button Content="." Grid.Row="4" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="White">
+        <Button  Content="3" Grid.Row="1" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen"></Button>
+        <Button Content="0" Grid.Row="4" Grid.Column="2" Margin="3,5,3,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen"/>
+        <Button Content="." Grid.Row="4" Grid.Column="3" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18"  Background="ForestGreen">
         </Button>
         <Button  Content="=" Grid.Row="5" Grid.Column="1" Margin="5,5,5,5" BorderBrush="#FF3581FD" FontFamily="Arial Black" FontSize="18" Grid.ColumnSpan="3"/>
         <Button  Content="+" Grid.Row="3" Grid.Column="4" Margin="5,5,5,5" BorderBrush="#FFA7C9FF" FontFamily="Arial Black" FontSize="18">
@@ -49,7 +49,7 @@
         </Button>
         <Button Content="*" Grid.Row="1" Grid.Column="4" Margin="5,5,5,5" BorderBrush="#FFA7C9FF" FontFamily="Arial Black" FontSize="18">
         </Button>
-        <Button  Content="/" Grid.Row="4" Grid.Column="1" Margin="5,5,5,5" BorderBrush="#FFA7C9FF" FontFamily="Arial Black" FontSize="18">
+        <Button  Content="/" Grid.Row="4" Grid.Column="1" Margin="5,5,5,5" BorderBrush="#FFA7C9FF" FontFamily="Arial Black" FontSize="18" Background="ForestGreen">
         </Button>
         <Button Grid.Row="4" Content ="R" Grid.Column="4" Margin="5,5,5,5" BorderBrush="White" FontFamily="Arial Black" FontSize="18">
         </Button>
