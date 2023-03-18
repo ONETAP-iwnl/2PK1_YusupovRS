@@ -35,26 +35,24 @@ namespace pz_25
                 }
             }
         }
-        private void Button_Click(object sender, RoutedEventArgs e) //метод, который присваивает значения кнопкам
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             string str = (string)((Button)e.OriginalSource).Content;
-            //условие, при котором текстовое поле будет очищаться
+            
             if (str == "AC")
             {
                 Result.Text = "";
             }
-            //условие, при котором будет происходить математический расчет
             else if (str == "=")
             {
                 string value = new DataTable().Compute(Result.Text, null).ToString();//
 
                 Result.Text = value;
             }
-            else //вывод цифр на текстовое поле
+            else 
             {
                 Result.Text += str;
             }
         }
-        //сделала калькулятор с помощью курсов в ютубе ^^
     }
 }
