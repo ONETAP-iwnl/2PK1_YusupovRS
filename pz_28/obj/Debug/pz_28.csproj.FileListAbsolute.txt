@@ -1,0 +1,8 @@
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\obj\Debug\pz_28.csproj.AssemblyReference.cache
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\obj\Debug\pz_28.csproj.SuggestedBindingRedirects.cache
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\obj\Debug\pz_28.csproj.CoreCompileInputs.cache
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\bin\Debug\pz_28.exe.config
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\bin\Debug\pz_28.exe
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\bin\Debug\pz_28.pdb
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\obj\Debug\pz_28.exe
+C:\Users\romka\source\repos\ONETAP-iwnl\2PK1_YusupovRS\pz_28\obj\Debug\pz_28.pdb
